@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Green Diaries</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="green back.png"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclicks="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclicks="showMenu()"></i>
+            </nav>
+            
+            <div class="text-box">
+                <h1>Green Diaries Africa <br>Unlocking Sustainable Cooking Solutions for Schools</h1>
+                <p>A large portion of fuel demand comes from Kenya's schools. About 90% of public schools use firewood for cooking and pay up to USD 20,000 annually for the wood, which makes cooking fuel one of the biggest expenses in schools' meal budgets.</p>
+
+                    <a href="" class="hi-btn">Visit Us To Know More</a>
+            </div>
+        </section>
+
+        <!-- Services -->
+
+        <section class="services">
+            <h1>Services We Offer</h1>
+            <p>In addition to preserving the forest and avoiding emissions, biogas plants can also have positive effects on soil fertility and food productivity due to the fact that slurry from the biogas systems is used as fertiliser for crop farming in the school gardens.</p>
+            <div class="row">
+                <div class="services-col">
+                    <h3>Door To Door</h3>
+                    <p>This involves reaching out to schools especially those that frequently use firewood by visiting them and getting to know how to assist them branding being included.</p>
+                </div>
+                <div class="services-col">
+                    <h3>Online plattform</h3>
+                    <p>Any personel public or private institutions and so much more are welcome to chat or reach out to us via our website or social media plattforms.</p>
+                </div>
+                <div class="services-col">
+                    <h3>Our Office</h3>
+                    <p>All are invited to visit our office in order to find out more about the brand.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Regions -->
+
+        <section class="regions">
+            <h1>Regions</h1>
+            <p>Target regions include Nyanza,Central,Coastal,Western and North Eastern regions.</p>
+
+            <div class="row">
+                <div class="regions-col">
+                    <img src="NAI.jpeg">
+                    <div class="layer">
+                        <h3>NAIROBI</h3>
+                    </div>
+                </div>
+                <div class="regions-col">
+                    <img src="vihiga.jpeg">
+                    <div class="layer">
+                        <h3>VIHIGA</h3>
+                    </div>
+                </div>
+                <div class="regions-col">
+                    <img src="kisumu.jpeg">
+                    <div class="layer">
+                        <h3>KISUMU</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities -->
+         <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>we have three main facilities incharge of our ongoing operations.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="programs.jpeg">
+                    <h3>Programmes Department</h3>
+                    <p>This section deals entirely with activities piloting by the programmes officer.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="finance.jpeg">
+                    <h3>Finance</h3>
+                    <p>This section deals entirely with activities piloting by the finance officer.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="communicate.jpeg">
+                    <h3>Communication</h3>
+                    <p>This section deals entirely with activities piloting by the communication officer.</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- Feedback -->
+         <section class="feedback">
+            <h1>Responses from different parents</h1>
+            <p>we have responses from different parents concerning our programme.</p>
+
+            <div class="row">
+                <div class="feedback-col">
+                    <img src="gonzalo.jpg">
+                    <div>
+                        <p>The brand is amazing and has got services which i believe is suitable and cheap to the customer.</p>
+                        <h3>Sillyvester Emmanuel</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="feedback-col">
+                    <img src="miya.jpg">
+                    <div>
+                        <p>The programme is amazing and has got services which i believe is suitable and cheap to the customer.</p>
+                        <h3>Maryam Wangeci</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Call To Action -->
+
+         <section class="cta">
+            <h1>Enroll for our various services online <br> or visit our headquarters.</h1>
+            <a href="" class="hi-btn">CONTACT US</a>
+         </section>
+
+         <!-- Footer -->
+
+         <section class="footer">
+            <h4>About US</h4>
+            <p>we care about the well being of all teachers and students in different institutions their health being our priority.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made by <i class="fa fa-heart-o"></i>Gift Arthur</p>
+         </section>
+        <!-- javascript for toggle Menu -->
+        <script type="text/javascript">
+
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

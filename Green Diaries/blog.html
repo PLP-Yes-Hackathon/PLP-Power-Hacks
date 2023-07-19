@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Green Diaries</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css"  href="font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="green back.png"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Team</h1>
+            </section>
+
+            <!-- blog page content -->
+
+            <section class="blog-content">
+                <div class="row">
+                    <div class="blog-left">
+                        <img src="giftar.jpg">
+                        <h2>GIFT ARTHUR - CEO  & FOUNDER </h2>
+                    </div>
+                    <div class="blog-right">
+                        <img src="triva.jpeg">
+                        <h2>WANGECI MARYAM - Finance Officer</h2>
+                    </div>
+                    <div class="bertha">
+                        <img src="bertha.jpeg">
+                        <h2>EMMANUEL SILLYVESTER - Programmes Officer</h2>
+                    </div>
+                    <div class="geradine">
+                        <img src="geradine.jpeg">
+                        <h2>EMMANUEL - Regional Manager & communication(software developer) </h2>
+                    </div>
+                </div>
+            </section>
+
+            <!-- footer -->
+            <section class="footer">
+                <h4>MEET OUR TEAM</h4>
+                <p>we care about the well being of all teachers and students in different institutions their health being our priority. <br>The  project is aimed at targeting schools especially secondary schools that still use firewood to cook and prepare meals instead of using gas cookers which are more efficient. <br>some of the brand's competitive advantage include: <br> 1. Sustainability and Environmental Benefits <br>
+
+                    2. Cost Savings <br>
+                    3. Educational Opportunities <br>
+                    
+                    
+                    4. Health and Safety <br>
+                    
+                    5. Community Engagement</p>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+                <p>Made by <i class="fa fa-heart-o"></i>Gift Arthur</p>
+
+                <!-- javascript -->
+            
+            <script type="text/javascript">
+
+                var navLinks = document.getElementById("navLinks");
+    
+                function showMenu(){
+                    navLinks.style.right = "0";
+                }
+    
+                function hideMenu(){
+                    navLinks.style.right = "-200px";
+                }
+            </script>
+             </section>
+    </body>
+</html>
