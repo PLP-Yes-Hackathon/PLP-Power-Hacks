@@ -24,7 +24,7 @@
 
 # 📖 WattSmart <a name="about-project"></a>
 
-**WattSmart** is a responsive, and optimized web app for Tracking you electric device power consumption units(kWh) and shows the cost per min and hour of the device operations(in Kshs). This will enable one be aware of the cost of running the device and be able to make informed decisions on the usage of the device. This app also helps in making Insightful comparisons between two energy source(like it would cost less to heat with electric jug than heating the same amount with gas) This app is built using HTML5, CSS3, and JavaScript.
+**WattSmart** is a responsive, and optimized web app for Tracking you electric device power consumption `units(kWh)` and shows the cost `per min` and `hour` of the device operations`(in Kshs)`. This will enable one be aware of the cost of running the device and be able to make informed decisions on the usage of the device. This app also helps in making `Insightful comparisons` between two energy source`(like it would cost less to heat with electric jug than heating the same amount with gas)` This app is built using `HTML5, CSS3, and JavaScript`.
 
 ## 🛠 Built With <a name="built-with"></a>
 
