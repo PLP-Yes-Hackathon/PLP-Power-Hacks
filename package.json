@@ -1,24 +1,22 @@
 {
-  "name": "waste2wealth",
+  "name": "waste2wealth-yeshackathon",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ochiengsteven/Waste2Wealth.git"
+    "url": "git+https://github.com/Ochiengsteven/waste2wealth-YEShackathon.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ochiengsteven/Waste2Wealth/issues"
+    "url": "https://github.com/Ochiengsteven/waste2wealth-YEShackathon/issues"
   },
-  "homepage": "https://github.com/Ochiengsteven/Waste2Wealth#readme",
+  "homepage": "https://github.com/Ochiengsteven/waste2wealth-YEShackathon#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
@@ -29,12 +27,5 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  },
-  "dependencies": {
-    "css-loader": "^6.8.1",
-    "html-webpack-plugin": "^5.5.3",
-    "style-loader": "^3.3.3",
-    "webpack": "^5.88.1",
-    "webpack-cli": "^5.1.4"
   }
 }
