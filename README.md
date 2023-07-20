@@ -82,7 +82,7 @@ https://github.com/Ochiengsteven/WattSmart.git
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd Portfolio``**
+**``you@your-Pc-name:~$ cd WattSmart``**
 
 ### Install
 
